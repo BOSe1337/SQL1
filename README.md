@@ -41,7 +41,7 @@ SELECT rental_id, CAST(rental_date AS DATE),inventory_id, customer_id, staff_id
 FROM rental
 ORDER BY rental_id DESC LIMIT 5;
 ```
-![alt text](https://github.com/BOSe1337/SQL1/blob/main/2.png)
+![alt text](https://github.com/BOSe1337/SQL1/blob/main/3.png)
 
 ---
 
@@ -59,4 +59,4 @@ SELECT active, customer_id, REPLACE(LOWER(first_name) , 'll', 'pp'), LOWER(last_
 FROM customer
 WHERE active = 1 AND (first_name LIKE 'Kelly' OR first_name  LIKE 'Willie');
 ```
-![alt text](https://github.com/BOSe1337/SQL1/blob/main/5.png)
+![alt text](https://github.com/BOSe1337/SQL1/blob/main/4.png)
